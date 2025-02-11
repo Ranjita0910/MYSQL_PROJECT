@@ -1,0 +1,34 @@
+SQL constraint
+ 
+which are helps to specify rules for data in a table 
+
+types
+1) primary key
+2)unique key
+3)foreign key
+4)not null key
+5)default key
+6)check key
+7)auto increment
+
+
+primary key: which key is key the combination of unique key and not null key
+column - data type - primary key
+
+unique key: which key does not allow duplicate records and it allows not null key
+column - data type -unique key 
+
+foreign key : which key helps to build a relationship between two tables
+column - data type - foreign key
+
+not null key : it does not allow null values
+column - data type - not null key
+
+default key: it take default value weather user filled value or not it avoid null value
+column - data type - default key
+
+auto increment: it helps to auto increase the values
+column - data type - auto increment key
+
+these are like rules if rules are not satisfied the query will not executive
+i give check(age>18) if i fill below 18 years in any record entire record not executive 

@@ -1,0 +1,25 @@
+data types in sql 
+
+the type of data which is store in each fied is called data type
+
+
+types
+1) number data type 
+   a)int
+   b) float
+
+
+2) text data type
+   a) char : it is fix length of character (max 255 length) 
+   b) varchar: it is variable length of character ( max 65535) 
+
+varchar is helps to reduce data storage because if we mention varchar(20) character but we write only 10 character that time it take only 10 place
+but char is fix length if we write char(10) we write 5 character remaining empty 5 spaces is also consider  
+so when we know fix length that time we used char
+when we don't know fix length we used varchar
+
+3) time
+   a) date
+   b) time
+   c) date and time
+   d) date stop : it helps to get auto current date and time @ any time
